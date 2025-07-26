@@ -141,8 +141,6 @@ body::before {
   position: absolute;
 }
 
-/* Hover Animation */
-
 .s-card--hovered .s-card__background {
   cursor: pointer;
   opacity: 0;

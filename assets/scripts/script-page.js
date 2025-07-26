@@ -1,5 +1,5 @@
 document.addEventListener("keydown", function (event) {
-  const currentFile = window.location.pathname.split("/").pop(); // ex: spiderman2.html
+  const currentFile = window.location.pathname.split("/").pop();
   const match = currentFile.match(/spiderman(\d+)\.html/);
 
   if (!match) return;
@@ -16,7 +16,6 @@ document.addEventListener("keydown", function (event) {
   if (nextNumber >= 1) {
     const nextPage = `spiderman${nextNumber}.html`;
 
-    // Verifica se o arquivo existe antes de redirecionar
     fetch(nextPage, { method: 'HEAD' })
       .then(response => {
         if (response.ok) {

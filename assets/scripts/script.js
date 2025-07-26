@@ -19,11 +19,10 @@ function addEventListenersToCards() {
 }
 
 document.addEventListener("DOMContentLoaded", addEventListenersToCards, false);
-
 let currentIndex = 1;
 
 function selectCarouselItem(selectedButtonElement) {
-  currentIndex = Number(selectedButtonElement.id); // Atualiza o índice global
+  currentIndex = Number(selectedButtonElement.id);
 
   const carousel = document.querySelector('.s-cards-carousel');
   const transform = carousel.style.transform || 'rotateY(0deg)';
