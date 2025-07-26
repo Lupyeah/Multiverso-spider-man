@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Uma página apresentando o multiverso do spider-man!
 
-- [Para ver no site]
+- [Para ver no site](https://lupyeah.github.io/Multiverso-spider-man/)
 
 ## 📋 Funcionalidades
 - 📌 Uma página apresentando o multiverso do Spider-Man!
